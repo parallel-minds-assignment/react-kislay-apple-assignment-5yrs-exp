@@ -1,4 +1,4 @@
-# 🎬 Movie Explorer
+# Movie Explorer
 
 A fully responsive and theme-aware Movie Search application built with **React**, **Vite**, and **TypeScript**. It leverages the **OMDb API** to fetch movie data and offers features like:
 
@@ -13,18 +13,18 @@ A fully responsive and theme-aware Movie Search application built with **React**
 
 ---
 
-## 🧪 Tech Stack
+##  Tech Stack
 
-- ⚛️ **React 18**
-- ⚡ **Vite**
-- 🟨 **TypeScript**
-- 🧩 **Redux Toolkit**
-- 🔁 **React Router v6**
-- 🧪 **Jest**, **React Testing Library**
-- 🔧 **ESLint + Prettier**
-- 🧠 **Inversify** for dependency injection
-- 📦 **Axios** for API calls
-- 🎨 **Custom CSS** for responsive and theme-aware UI
+-  **React 18**
+-  **Vite**
+-  **TypeScript**
+-  **Redux Toolkit**
+-  **React Router v6**
+-  **Jest**, **React Testing Library**
+-  **ESLint + Prettier**
+-  **Inversify** for dependency injection
+-  **Axios** for API calls
+-  **Custom CSS** for responsive and theme-aware UI
 
 ---
 
@@ -46,7 +46,7 @@ VITE_OMDB_API_KEY=your_omdb_api_key
 VITE_BASE_URL=https://www.omdbapi.com/
 ```
 
-> 🔒 Make sure to never commit your `.env` file.
+>  Make sure to never commit your `.env` file.
 
 ### 3. Run the development server
 
@@ -56,7 +56,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -74,7 +74,7 @@ src/
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Run all unit tests:
 
@@ -96,7 +96,7 @@ npm run test:coverage
 
 ---
 
-## 🧹 Linting and Formatting
+##  Linting and Formatting
 
 Check and fix lint issues:
 
@@ -108,7 +108,7 @@ Code formatting handled by **Prettier** integrated into ESLint.
 
 ---
 
-## 🌓 Theming
+##  Theming
 
 Supports **light** and **dark** themes using CSS variables:
 
@@ -130,7 +130,7 @@ You can toggle theme via a context/provider or manually by changing the `data-th
 
 ---
 
-## 📦 Build
+##  Build
 
 ```bash
 npm run build
@@ -144,7 +144,7 @@ npm run preview
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 - **API Layer**: Modular and strongly typed using `axios` and `Inversify`.
 - **Redux**: Toolkit-powered state management for movie search and details.
@@ -152,13 +152,13 @@ npm run preview
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 💬 Acknowledgements
+## Acknowledgements
 
 - [OMDb API](https://www.omdbapi.com/)
 - [React](https://react.dev/)
